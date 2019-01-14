@@ -6,6 +6,7 @@ import VolumeBar from "../VolumeBar/VolumeBar";
 import ButtonFullScreen from "../ButtonFullScreen/ButtonFullScreen";
 import { withPlayerProps } from "../HOC/withPlayerProps"
 import "./style.css"
+import Timer from "../Timer/Timer";
 
 class ControlPanel extends Component {
     
@@ -16,6 +17,7 @@ class ControlPanel extends Component {
                 <ButtonPlayPause />
                 <ButtonStop />
                 <ProgressBar />
+                <Timer />
                 <VolumeBar />
                 <ButtonFullScreen />
             </div>

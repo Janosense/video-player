@@ -1,20 +1,20 @@
-import React, {Component, createContext} from 'react';
+import React, { Component, createContext } from 'react';
 
 const { Provider, Consumer } = createContext();
 
-const withPlayerProps = ( Enhanceable) => {
+const withPlayerProps = ( Enhanceable ) => {
     return class WithProfile extends Component {
         
-        render () {
+        render() {
             return (
                 <Consumer>
-                    {(context) => (
+                    { ( context ) => (
                         <Enhanceable
-                            innerRef = {this.props.innerRef}
+                            innerRef = { this.props.innerRef }
                             { ...context }
                             { ...this.props }
                         />
-                    )}
+                    ) }
                 </Consumer>
             );
         }
