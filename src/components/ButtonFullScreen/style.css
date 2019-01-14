@@ -1,0 +1,17 @@
+.button-full-screen {
+    -webkit-appearance: none;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100%;
+    background-image: url("../../assets/icons/fullscreen.svg");
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: opacity 0.3s ease;
+}
+
+.button-full-screen:hover {
+    opacity: 0.7;
+}

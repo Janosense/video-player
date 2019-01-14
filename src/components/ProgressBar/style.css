@@ -1,0 +1,21 @@
+.progress-bar {
+    flex-grow: 1;
+    position: relative;
+    min-width: 200px;
+    height: 8px;
+    margin-right: 10px;
+    background-color: #606060;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar__indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+}

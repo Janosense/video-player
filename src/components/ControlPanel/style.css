@@ -1,0 +1,12 @@
+.control-panel {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}

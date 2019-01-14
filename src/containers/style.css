@@ -1,0 +1,31 @@
+.player {
+    position: relative;
+    width: 600px;
+    cursor: pointer;
+}
+
+.player--on-pause::before {
+    content: "";
+    position: absolute;
+    top: calc(50% - 55px);
+    left: calc(50% - 33px);
+    display: block;
+    width: 26px;
+    height: 90px;
+    background-color: rgba(66, 66, 66, 0.8);
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.player--on-pause::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 55px);
+    right: calc(50% - 33px);
+    display: block;
+    width: 26px;
+    height: 90px;
+    background-color: rgba(66, 66, 66, 0.8);
+    border-radius: 5px;
+    pointer-events: none;
+}
