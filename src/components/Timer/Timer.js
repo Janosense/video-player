@@ -26,7 +26,6 @@ class Timer extends Component {
         }
         
         return `${ minuteValue }:${ secondValue }`;
-        
     };
     
     static getDerivedStateFromProps( props, state ) {

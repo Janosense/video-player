@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import { withPlayerProps } from "../HOC/withPlayerProps";
 
-class Video extends PureComponent {
+export class Video extends PureComponent {
     
     static propTypes = {
         videoList: PropTypes.array.isRequired,

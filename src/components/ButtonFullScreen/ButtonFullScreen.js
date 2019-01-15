@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import { withPlayerProps } from "../HOC/withPlayerProps"
 import "./style.css"
 
-class ButtonFullScreen extends PureComponent {
+export class ButtonFullScreen extends PureComponent {
     
     _toggleFullScreen = () => {
         const { videoElement: video } = this.props;
